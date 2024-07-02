@@ -2,9 +2,7 @@
 
 #### _This Game allows two players to play the Tick Tack Toe, 2020 ver 1.0_
 
-#### By _Ian Gregg, Michael Petersen, & Sara Kane_
-[Tick-Tack-Toe](https://github.com/oldgregg89/tick-tack-toe)
-
+#### By _Piyush_Singh
 
 ## Description
 
@@ -39,11 +37,7 @@ _No known bugs_
 
 ## Support and contact details
 
-_Contact Ian Gregg: <iangregg188@gmail.com>
-or
-Sara Kane <kane.sarak@gmail.com>
-or
-Michael Petersen <michael_petersen_email@yahoo.com>_
+_Contact Piyush Singh: <piyushsingh7652@gmail.com>
 
 ## Technologies Used
 
@@ -51,7 +45,7 @@ _The Technologies used in the making of this software was Chrome browser, Visual
 
 ### License
 
-Copyright (c) 2020 **_Ian Gregg, Sara Kane, & Michael Petersen_**
+Copyright (c) 2020 **_Piyush Singh_**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
