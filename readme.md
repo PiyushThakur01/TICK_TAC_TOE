@@ -1,6 +1,6 @@
 # _Tick Tac Toe_
 
-#### _This Game allows two players to play the Tick Tack Toe, 2020 ver 1.0_
+#### _This Game allows two players to play the Tick Tack Toe, 2024 ver 1.0_
 
 #### By _Piyush_Singh
 
