@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+  <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tic_tac_toe.svg/1200px-Tic_tac_toe.svg.png">
+  <title>Tic-Tac-Toe</title>
+</head>
+<body>
+  <div class= "container">
+    <div class= "jumbotron">
+      <h2>Tic-Tac-Toe</h2>
+      <p class="titleintro">Game On</p>
+      <span id="player1Turn">Player 1's Turn</span>
+      <span id="player2Turn">Player 2's Turn</span>
+    </div> 
+      <table id="gameboard"> 
+        <tr> 
+          <td colspan="3"> 
+        </tr> 
+        <tr> 
+          <td> 
+            <button class="dataCell" id="dataCell0"><img src="https://media.giphy.com/media/gP5GwP8fL4AFi/giphy.gif" class="xGif">
+            <img src="https://i.pinimg.com/originals/09/1b/f8/091bf88ab19547360376dc24014addfd.gif" class="oGif"></button>
+            
+          </td> 
+          <td> 
+            <button class="dataCell" id="dataCell1"><img src="https://media.giphy.com/media/gP5GwP8fL4AFi/giphy.gif" class="xGif">
+              <img src="https://i.pinimg.com/originals/09/1b/f8/091bf88ab19547360376dc24014addfd.gif" class="oGif"></button>
+            <img src="">
+            <img src=""> 
+          </td> 
+          <td> 
+          <button class="dataCell" id="dataCell2"><img src="https://media.giphy.com/media/gP5GwP8fL4AFi/giphy.gif" class="xGif">
+            <img src="https://i.pinimg.com/originals/09/1b/f8/091bf88ab19547360376dc24014addfd.gif" class="oGif"></button>
+          <img src="">
+          <img src=""> 
+          </td> 
+        </tr> 
+        <tr> 
+          <td> 
+            <button class="dataCell" id="dataCell3"><img src="https://media.giphy.com/media/gP5GwP8fL4AFi/giphy.gif" class="xGif">
+              <img src="https://i.pinimg.com/originals/09/1b/f8/091bf88ab19547360376dc24014addfd.gif" class="oGif"></button> 
+          </td> 
+          <td> 
+            <button class="dataCell" id="dataCell4"><img src="https://media.giphy.com/media/gP5GwP8fL4AFi/giphy.gif" class="xGif">
+              <img src="https://i.pinimg.com/originals/09/1b/f8/091bf88ab19547360376dc24014addfd.gif" class="oGif"></button> 
+          </td> 
+          <td> 
+            <button class="dataCell" id="dataCell5"><img src="https://media.giphy.com/media/gP5GwP8fL4AFi/giphy.gif" class="xGif">
+              <img src="https://i.pinimg.com/originals/09/1b/f8/091bf88ab19547360376dc24014addfd.gif" class="oGif"></button> 
+          </td> 
+        </tr> 
+        <tr> 
+          <td> 
+            <button class="dataCell" id="dataCell6"><img src="https://media.giphy.com/media/gP5GwP8fL4AFi/giphy.gif" class="xGif">
+              <img src="https://i.pinimg.com/originals/09/1b/f8/091bf88ab19547360376dc24014addfd.gif" class="oGif"></button> 
+          </td> 
+          <td> 
+            <button class="dataCell" id="dataCell7"><img src="https://media.giphy.com/media/gP5GwP8fL4AFi/giphy.gif" class="xGif">
+              <img src="https://i.pinimg.com/originals/09/1b/f8/091bf88ab19547360376dc24014addfd.gif" class="oGif"></button> 
+          </td> 
+          <td> 
+            <button class="dataCell" id="dataCell8"><img src="https://media.giphy.com/media/gP5GwP8fL4AFi/giphy.gif" class="xGif">
+              <img src="https://i.pinimg.com/originals/09/1b/f8/091bf88ab19547360376dc24014addfd.gif" class="oGif"></button> 
+          </td> 
+        </tr> 
+      </table> 
+      <input type="button" class="reset btn btn-lg btn-default btn-block" value="RESET" onclick="document.location='Gameboard.html'"> 
+    </div>
+  </div>
+  <div class="win-message" id="winningMessage">
+      <p id="outcome1">X is the Winner!<br><img src="https://media1.tenor.com/images/166a440d007746a995016ae88231271f/tenor.gif?itemid=8264539" alt="X is the Winner"></p>
+      <p id="outcome2">O is the Winner!<br><img src="https://i0.wp.com/equity.guru/wp-content/uploads/2019/06/winner.gif?ssl=1" alt="O is the Winner"></p>
+      <p id="outcome3">No one wins!<br><img src="http://gificiency.com/m/angry-ronswanson2.gif" alt="No one is the winner"></p>
+      <button id="restartButton" onclick="document.location='index.html'">Play Again</button>
+    </div>
+  
+</body>
+</html>
+
